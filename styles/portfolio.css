@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    color: #fff;
+}
+.hero{
+    padding-top: 300px;
+    background-color: black;
+    background-image: url(../gallery/original.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height: 100%;
+    color: white;
+    background-position: center center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.hero h5{
+    margin-top: -235px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+}
+.hero h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 54px;
+letter-spacing: 0.21em;
+margin-top: -10px;
+margin-bottom: 30px;
+}
+.hero p{
+    margin: auto;
+    width: 310px;
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 20px;
+margin-bottom: 60px;
+}
+.img1{
+    width: 250px;
+    height: 200px;
+}
+.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+ width: auto;
+    height: 200px;
+    justify-content: center;
+}
+button{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0.1em;
+color: #272142;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    border-radius: 50px;font-size: 10px;
+    border: none;
+}
+.display{
+
+    background-color: #1B1B1B;
+}
+ .gallery{
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding-top: 60px;
+    background-color: #1B1B1B;
+    padding-bottom: 30px;
+} 
+img{
+    gap: 80px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+.row-2{
+    justify-content: center;
+    gap: 20px;
+}
+footer{
+  background: #282323;
+}
+footer img{
+    margin: 20px ;
+}
+.d-flex{
+    justify-content: space-between;
+}
+.copyrights p{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+@media screen and (max-width:1120px){
+    .gallery{
+        justify-content: center;
+    }
+    .img1{
+        width: 200px;
+    }
+    .img4{
+      width: 200px;  
+    }
+    .img8{
+        width: 150px;
+    }
+    .row-2{
+        justify-content: left;
+    }
+    
+}
+@media screen and (max-width:990px){
+    .img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+        width: auto;
+    }
+    .row{
+        justify-content: space-evenly;
+    }
+    .img4{
+        width: 310px;
+    }
+    .img1{
+        width: 220px;
+    }
+    .img3{
+        width: 130px;
+    }
+    .img7{
+        width: 146px;
+    }
+    .img10,.img9{
+        width: 175px;
+    }
+}
+@media screen and (max-width:770px) {
+    
+    .img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+        width: auto;
+    }
+    .img4{
+        width: 290px;
+    }
+    .img5{
+        width: 160px;
+    }
+    .img6{
+        width: 90px;
+    }
+    footer img{
+        width: 100px;
+    }
+    .socials {
+        display: flex;
+        flex-direction: row; 
+    }
+    .socials a img{
+        width:20px ;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+    .socials a img:last-child{
+        margin-right: 14px;
+    }
+    .copyrights p{
+        font-size: 15px;
+    }
+} 
+@media screen and (max-width:580px){
+    .img4{
+        width: 205px;
+    }
+    .img5{
+        width: 150px;
+    }
+    .img8{
+        width: 140px;
+    }
+    .img9{
+        width: 140px;
+    }
+}
+@media screen and (max-width:455px){
+    .copyrights p{
+        font-size: 13px;
+    }
+    footer img{
+        width: 70px;
+    }
+    .socials a img{
+        width:15px ;
+        margin-left: 3px;
+        margin-right:3px;
+        text-align: center;
+    }
+    .socials a img:last-child{
+        margin-right: 8px;
+    }
+}
