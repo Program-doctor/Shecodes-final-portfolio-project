@@ -136,6 +136,85 @@ footer img{
     justify-content: center;
     margin: auto;
 }
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.about img{
+    max-width: 400px;
+    height: 550px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    padding-right: 10px;
+}
+.about h2{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+font-style: normal;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    color: #F65282;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+.about h3{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.2em;
+    font-family: Roboto;
+font-size: 30px;
+font-weight: 600;
+line-height: 55px;
+letter-spacing: 0.1em;
+text-align: left;
+}
+.details p{
+    font-family: Roboto;
+font-size: 13px;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+font-style: normal;
+}
+.social{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.social img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.details .camera{
+    width: 280px;
+    height: 40px;
+    margin-top: 12px;
+}
+.details button{
+    margin-top: 15px;
+    max-width: 145px;
+    
+}
+.about-gallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.about-gallery .img2{
+    width: 150px;
+}
+.about-gallery .img3{
+    width: 160px;
+}
 @media screen and (max-width:1120px){
     .gallery{
         justify-content: center;
@@ -178,7 +257,6 @@ footer img{
     }
 }
 @media screen and (max-width:770px) {
-    
     .img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
         width: auto;
     }
@@ -210,7 +288,40 @@ footer img{
     .copyrights p{
         font-size: 15px;
     }
+    .about h3{
+        line-height: 45px;
+    }
+    .social{
+        margin-top: 25px;
+    }
 } 
+@media screen and (max-width:740px){
+    .about{
+        flex-direction: column;
+    }
+    .about img{
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .details{
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .details p, .social a, .about h3,.details button{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .details button{
+        margin-top: 20px;
+    }
+    .about-gallery{
+        gap: 50px;
+    }
+}
 @media screen and (max-width:580px){
     .navbar-brand img{
         width: 120px;
@@ -228,8 +339,11 @@ footer img{
     .img9{
         width: 140px;
     }
+    .about-gallery{
+        gap: 20px;
+    }
 }
-@media screen and (max-width:455px){
+@media screen and (max-width:465px){
     .navbar-brand img{
         width: 120px;
         margin-left: 15px;
@@ -248,5 +362,17 @@ footer img{
     }
     .socials a img:last-child{
         margin-right: 8px;
+    }
+    .myself{
+        max-width: 100% !important;
+    }
+    .about-gallery{
+        flex-wrap: wrap;
+    }
+    .about h3{
+        font-size: 25px;
+    }
+    .details p{
+        padding-left: 5px;
     }
 }
