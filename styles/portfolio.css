@@ -218,17 +218,50 @@ font-style: normal;
 .about-gallery .img3{
     width: 160px;
 }
+.d-gallery{
+    text-align: center;
+}
 .d-gallery h1{
-  margin: -65px auto 65px; 
-  text-align: center;
-  font-family: 'Roboto';
+    margin: -65px auto 55px; 
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+.contact-header{
+    padding: 10px;
+    background: #202020;
+}
+.d-gallery h6{
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-font-size: 45px;
-line-height: 84px;
-text-align: center;
-letter-spacing: 0.15em;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #F65282;
+}
+.d-gallery p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 30px;
 color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.d-gallery p:last-child{
+    margin-bottom: 40px;
+}
+.d-gallery a{
+    color: #fff;
 }
 @media screen and (max-width:1120px){
     .gallery{
