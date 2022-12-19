@@ -2,6 +2,9 @@
 body{
     color: #fff;
 }
+main{
+    background-color: #1B1B1B;
+}
 .navbar{
     --bs-navbar-color:#fff !important;
     --bs-navbar-active-color:#ffffff70 !important;
@@ -104,7 +107,6 @@ button:hover a{
     letter-spacing: .3em;
 }
 .display{
-
     background-color: #1B1B1B;
 }
  .gallery{
@@ -215,6 +217,18 @@ font-style: normal;
 }
 .about-gallery .img3{
     width: 160px;
+}
+.d-gallery h1{
+  margin: -65px auto 65px; 
+  text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 84px;
+text-align: center;
+letter-spacing: 0.15em;
+color: #FFFFFF;
 }
 @media screen and (max-width:1120px){
     .gallery{
@@ -375,5 +389,8 @@ font-style: normal;
     }
     .details p{
         padding-left: 5px;
+    }
+    .d-gallery h1{
+        font-size: 35px;
     }
 }
