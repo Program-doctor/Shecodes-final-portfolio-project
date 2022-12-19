@@ -140,9 +140,10 @@ footer img{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    justify-content: center;
 }
 .about img{
-    max-width: 400px;
+    max-width: 100%;
     height: 550px;
 }
 .details{
